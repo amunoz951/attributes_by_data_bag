@@ -1,0 +1,12 @@
+name 'attributes_by_data_bag'
+maintainer 'Alex Munoz'
+maintainer_email 'amunoz951@gmail.com'
+license 'Apache-2.0'
+description 'Provides recursive overriding of attributes by data bags and hashes'
+source_url 'https://github.com/amunoz951/attributes_by_data_bag'
+issues_url 'https://github.com/amunoz951/attributes_by_data_bag/issues'
+chef_version '>= 12'
+version '0.1.0'
+
+supports 'windows'
+supports 'centos'

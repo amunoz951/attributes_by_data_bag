@@ -1,0 +1,11 @@
+name 'attributes_by_data_bag_test'
+maintainer 'Alex Munoz'
+maintainer_email 'amunoz951@gmail.com'
+license 'Apache-2.0'
+description 'Tests attributes_by_data_bag cookbook'
+version '0.2.0'
+source_url 'https://github.com/amunoz951/attributes_by_data_bag'
+issues_url 'https://github.com/amunoz951/attributes_by_data_bag/issues'
+chef_version '>= 12'
+
+depends 'attributes_by_data_bag'
