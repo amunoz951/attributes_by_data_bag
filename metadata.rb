@@ -6,7 +6,7 @@ description 'Provides recursive overriding of attributes by data bags and hashes
 source_url 'https://github.com/amunoz951/attributes_by_data_bag'
 issues_url 'https://github.com/amunoz951/attributes_by_data_bag/issues'
 chef_version '>= 12'
-version '0.1.0'
+version '0.1.1'
 
 supports 'windows'
 supports 'centos'

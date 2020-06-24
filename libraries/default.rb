@@ -1,4 +1,6 @@
 module AttributesByDataBag
+  extend Chef::DSL::DataQuery
+
   module_function
 
   def converge_dependencies
@@ -20,7 +22,7 @@ module AttributesByDataBag
   end
 
   def read_data_bag(data_bag, data_bag_item, ignored_keys: %w(id chef_type data_bag), fail_on_missing_data_bag: true)
-    Chef::DataBagItem.load(data_bag, data_bag_item).to_h.reject { |k, _v| ignored_keys.include?(k) }
+    data_bag_item(data_bag, data_bag_item).to_h.reject { |k, _v| ignored_keys.include?(k) }
   rescue Net::HTTPServerException
     raise if fail_on_missing_data_bag
     {}
