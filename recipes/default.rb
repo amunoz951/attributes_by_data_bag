@@ -4,4 +4,4 @@
 #
 
 # Install required gems
-include_recipe 'attributes_by_data_bag::gems'
+include_recipe 'attributes_by_data_bag::dependencies'
