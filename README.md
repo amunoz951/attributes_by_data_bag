@@ -1,6 +1,6 @@
 # attributes_by_data_bag Cookbook
 
-[![Cookbook Version](https://img.shields.io/badge/cookbook-0.1.1-green.svg)](https://supermarket.chef.io/cookbooks/attributes_by_data_bag)
+[![Cookbook Version](https://img.shields.io/badge/cookbook-0.1.2-green.svg)](https://supermarket.chef.io/cookbooks/attributes_by_data_bag)
 
 Provides methods for overriding node attributes using values from a data bag.
 
