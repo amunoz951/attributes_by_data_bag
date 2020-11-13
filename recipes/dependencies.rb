@@ -7,7 +7,7 @@
 #
 
 required_gems = {
-  'hashly' => '0.1.2',
+  'hashly' => '0.1.3',
 }
 required_gems.each do |gem_name, gem_version|
   chef_gem gem_name do
