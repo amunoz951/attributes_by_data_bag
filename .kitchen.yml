@@ -16,9 +16,11 @@ platforms:
   - name: win2012r2
     driver_config:
       box: mwrock/Windows2012R2
+      gui: false
   - name: centos7
     driver:
       box: bento/centos-7.2
+      gui: false
 
 suites:
   - name: default
